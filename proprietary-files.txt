@@ -208,7 +208,7 @@ vendor/lib64/camera/components/libdepthmapwrapper.so
 # Camera configs
 vendor/etc/camera/almalence_sr_params_tele.config
 vendor/etc/camera/almalence_sr_params_wide.config
-vendor/etc/camera/beauty_ui9_intelligent_params.config
+#vendor/etc/camera/beauty_ui9_intelligent_params.config
 vendor/etc/camera/body_slim_ui9_params.config
 vendor/etc/camera/bokehParams.json
 vendor/etc/camera/camxoverridesettings.txt
@@ -217,9 +217,9 @@ vendor/etc/camera/CFR_para_UW.bin
 vendor/etc/camera/CFR_para_W.bin
 vendor/etc/camera/CFR_para_W_HD_V01.bin
 vendor/etc/camera/eisoverridesettings.txt
-vendor/etc/camera/eyelineblush.cng
-vendor/etc/camera/golden_rear_dc_cal_wt.bin
-vendor/etc/camera/golden_rear_dc_cal_wu.bin
+#vendor/etc/camera/eyelineblush.cng
+#vendor/etc/camera/golden_rear_dc_cal_wt.bin
+#vendor/etc/camera/golden_rear_dc_cal_wu.bin
 vendor/etc/camera/GpuKernelRepo.pb
 vendor/etc/camera/hdr_ui9_params.config
 vendor/etc/camera/LDC_FPC_TUNING_DATA.bin
@@ -240,7 +240,7 @@ vendor/etc/camera/morpho_lowlight4.0_adrc_high_1.xml
 vendor/etc/camera/sceneDetection.xml
 vendor/etc/camera/seg_quantized.dlc
 vendor/etc/camera/vidhance_calibration
-vendor/etc/camera/visidon_clearshot_params_algoup.xml
+#vendor/etc/camera/visidon_clearshot_params_algoup.xml
 
 # Camera configs - from nabu-user 11 RKQ1.200826.002 V12.0.6.0.RJUMIXM release-keys 
 vendor/etc/camera/sr_params.xml|f83901324b80bc1e1af2751e1bb4d95b01977f6e
