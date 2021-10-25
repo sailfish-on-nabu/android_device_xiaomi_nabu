@@ -253,8 +253,8 @@ vendor/bin/batterysecret
 vendor/etc/init/init.batterysecret.rc
 
 # Display
-vendor/etc/qdcm_calib_data_xiaomi_36_02_0a_video_mode_dsc_dsi_panel.xml
-vendor/etc/qdcm_calib_data_xiaomi_42_02_0b_video_mode_dsc_dsi_panel.xml
+vendor/etc/qdcm_calib_data_xiaomi_36_02_0b_video_mode_dual_dsi_cphy_panel.xml
+vendor/etc/qdcm_calib_data_xiaomi_42_02_0a_video_mode_dual_dsi_cphy_panel.xml
 
 # Fingerprint
 #vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so
@@ -297,8 +297,8 @@ vendor/etc/sensors/config/sm8150_adux1050_0.json
 vendor/etc/sensors/config/sm8150_ak991x_0.json
 vendor/etc/sensors/config/sm8150_lsm6dso_0.json
 vendor/etc/sensors/config/sm8150_power_0.json
-vendor/etc/sensors/config/sm8150_shtw2_0.json
-vendor/etc/sensors/config/sm8150_stk3a5x_0.json
+#vendor/etc/sensors/config/sm8150_shtw2_0.json
+#vendor/etc/sensors/config/sm8150_stk3a5x_0.json
 vendor/etc/sensors/config/sns_amd.json
 vendor/etc/sensors/config/sns_amd_sw_disabled.json
 vendor/etc/sensors/config/sns_amd_sw_enabled.json
@@ -322,7 +322,7 @@ vendor/etc/sensors/config/sns_nonui.json
 vendor/etc/sensors/config/sns_pedometer.json
 vendor/etc/sensors/config/sns_rmd.json
 vendor/etc/sensors/config/sns_rotv.json
-vendor/etc/sensors/config/sns_sar_algo_0.json
+#vendor/etc/sensors/config/sns_sar_algo_0.json
 vendor/etc/sensors/config/sns_sar_algo_1.json
 vendor/etc/sensors/config/sns_smd.json
 vendor/etc/sensors/config/sns_tilt.json
@@ -420,16 +420,16 @@ vendor/etc/sensors/proto/sns_timer.proto
 vendor/etc/sensors/proto/sns_ultra_violet.proto
 vendor/etc/sensors/proto/sns_wrist_tilt_gesture.proto
 vendor/etc/sensors/sns_reg_config
-vendor/etc/elliptic_sensor.xml
+#vendor/etc/elliptic_sensor.xml
 
 # Thermal engine
-vendor/etc/thermal-arvr.conf
+#vendor/etc/thermal-arvr.conf
 vendor/etc/thermal-camera.conf
 vendor/etc/thermal-chg-only.conf
 vendor/etc/thermal-engine.conf
 vendor/etc/thermal-map.conf
 vendor/etc/thermal-nolimits.conf
 vendor/etc/thermal-normal.conf
-vendor/etc/thermal-phone.conf
+#vendor/etc/thermal-phone.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermald-devices.conf
