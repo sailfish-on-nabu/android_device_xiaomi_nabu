@@ -14,7 +14,7 @@ fi
 
 set -e
 
-export DEVICE=vayu
+export DEVICE=nabu
 export DEVICE_COMMON=sm8150-common
 export VENDOR=xiaomi
 
