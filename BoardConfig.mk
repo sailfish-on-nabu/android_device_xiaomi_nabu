@@ -22,7 +22,7 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_nabu
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_nabu
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/nabu_defconfig
+TARGET_KERNEL_CONFIG := nabu_user_defconfig
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
