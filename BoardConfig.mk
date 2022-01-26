@@ -41,6 +41,9 @@ TARGET_SCREEN_DENSITY := 274
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_nabu
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_nabu
 
+# ADD MKBOOT CMD DTB
+BOARD_MKBOOTIMG_ARGS += --dtb $(DEVICE_PATH)/prebuilt/dtb.img
+
 # Kernel
 TARGET_KERNEL_CONFIG := nabu_user_defconfig
 
